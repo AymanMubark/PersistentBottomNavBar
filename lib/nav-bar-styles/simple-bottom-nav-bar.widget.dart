@@ -48,7 +48,7 @@ class BottomNavSimple extends StatelessWidget {
                       item.title == null
                           ? SizedBox.shrink()
                           : Padding(
-                              padding: const EdgeInsets.only(top: 15.0),
+                              padding: const EdgeInsets.only(top: 5.0),
                               child: Material(
                                 type: MaterialType.transparency,
                                 child: FittedBox(
