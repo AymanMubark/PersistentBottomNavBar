@@ -13,7 +13,7 @@ class BottomNavSimple extends StatelessWidget {
     return this.navBarEssentials!.navBarHeight == 0
         ? SizedBox.shrink()
         : AnimatedContainer(
-            width: 150.0,
+            width: double.infinity,
             height: height,
             duration: const Duration(milliseconds: 1000),
             child: AnimatedContainer(
